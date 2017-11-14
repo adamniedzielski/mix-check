@@ -29,7 +29,8 @@ defmodule MixCheck.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      { :tzdata, "~> 0.5.12" }
+      {:tzdata, "~> 0.5.12"},
+      {:httpoison, "~> 0.13"}
     ]
   end
 end
